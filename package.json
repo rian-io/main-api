@@ -1,0 +1,31 @@
+{
+  "name": "main-api",
+  "version": "0.0.1",
+  "description": "Main api for my ecosystem",
+  "main": "index.js",
+  "author": "Rian de Oliveira",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/rian-io/main-api"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "6.1.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "1.7.0",
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2"
+  }
+}
