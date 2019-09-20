@@ -4,7 +4,6 @@ const axios = require('axios');
 module.exports = {
   async currentConditions(req, res) {
     const { lat, lon } = req.query;
-    console.log(req.query);
 
     const latLon = `${lat},${lon}`;
     const positionUrl = `https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=BUnOfgvzRlhOimWA949ZgPTYdd0AxGdR&q=${latLon}`;
