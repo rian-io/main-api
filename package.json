@@ -11,7 +11,11 @@
     "url": "https://https://github.com/rian-io/main-api"
   },
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": "10.16.3"
   },
   "dependencies": {
     "axios": "^0.19.0",
